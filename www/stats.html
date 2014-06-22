@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">$('.dropdown-toggle').dropdown()</script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/stats.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+<nav id="bar" class="navbar navbar-default" role="navigation">
+<div = class="btn-group">
+
+  <button id="menu" type="button" class="glyphicon glyphicon-align-justify" data-toggle="dropdown" ></button>
+
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="exercise.html">Exercise</a></li>
+    <li><a href="#">Game</a></li>
+    <li><a href="#">Relax</a></li>
+    <li><a href="stats.html">Statis</a></li>
+    <li><a href="addcalendar.html">Calendar</a></li>
+  </ul>
+
+</div>
+
+</nav>
+
+
+
+<div class='row thumbnail'>
+  <div class='col-xs-4 col-md-4 text-center'>
+    <button id="chart1" type="button" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-stats"></span> Stats
+    </button>
+  </div>
+  <div class='col-xs-8 col-md-8 text-center'>
+    <span class="badge" >Push up</span>
+  </div>
+</div>
+
+<div class='row thumbnail'>
+  <div class='col-xs-4 col-md-4 text-center'>
+    <button id="chart2" type="button" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-stats"></span> Stats
+    </button>
+  </div>
+  <div class='col-xs-8 col-md-8 text-center'>
+    <span class="badge" >Sit up</span>
+  </div>
+</div>
+
+<div class='row thumbnail'>
+  <div class='col-xs-4 col-md-4 text-center'>
+    <button id="chart3" type="button" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-stats"></span> Stats
+    </button>
+  </div>
+  <div class='col-xs-8 col-md-8 text-center'>
+    <span class="badge" >Run</span>
+  </div>
+</div>
+
+<div class='row thumbnail'>
+  <div class='col-xs-4 col-md-4 text-center'>
+    <button id="chart4" type="button" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-stats"></span> Stats
+    </button>
+  </div>
+  <div class='col-xs-8 col-md-8 text-center'>
+    <span class="badge" >Fast Run</span>
+  </div>
+</div>
+
+<div class='row thumbnail'>
+  <div class='col-xs-4 col-md-4 text-center'>
+    <button id="chart5" type="button" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-stats"></span> Stats
+    </button>
+  </div>
+  <div class='col-xs-8 col-md-8 text-center'>
+    <span class="badge" >Jump</span>
+  </div>
+</div>
+
+<div id="popup">
+  <div id='popup-container1'>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
+
+<script src="js/Chart.js"></script>
+        <script type="text/javascript" src="js/scriptchart.js"></script>
+        <script type="text/javascript" src="js/stats.js"></script>
+</body>
+</html>

@@ -1,0 +1,721 @@
+#menu{
+	color: white;
+	background-color: #f1c40f;
+	border: none;
+	width: 40px;
+
+
+
+
+}
+
+#bar{
+	width:100%;
+	
+	background-color: #f1c40f;
+
+
+
+
+}
+.glyphicon {
+
+	line-height: 3;
+
+}
+.dropdown-menu li a{
+
+	width: 100%
+
+}
+#start1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#start-container1{
+    position: absolute;
+    width: 60%;
+    height: 270px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+
+}
+#start2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#start-container2{
+    position: absolute;
+    width: 60%;
+    height: 270px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+
+}
+#start3 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#start-container3{
+    position: absolute;
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+
+}
+#start4 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#start-container4{
+    position: absolute;
+    width: 60%;
+    height: 270px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+
+}
+#start5 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#start-container5{
+    position: absolute;
+    width: 60%;
+    height: 270px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+
+}
+
+#popup1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#popup-container1{
+    position: absolute;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+#popup2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#popup-container2{
+    position: absolute;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+
+#popup3 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#popup-container3{
+    position: absolute;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+
+#popup4 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#popup-container4{
+    position: absolute;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+
+#popup5 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#popup-container5{
+    position: absolute;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+#closestart1{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+#closestart2{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+#closestart3{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+#closestart4{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+#closestart5{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+
+
+#closepopup1{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+
+#closepopup2{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+
+#closepopup3{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+
+#closepopup4{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+
+
+#closepopup5{
+    border: none;
+    float: right;
+    margin-right: 10px;
+}
+#hour1{
+    
+    width: 40%;
+    
+    margin: 0px;
+    display: inline-block;
+     
+
+
+
+}
+#min1{
+    
+    width: 40%;
+   
+    margin: 0px;
+    display: inline-block; 
+
+
+
+
+}
+#sec1{
+    
+    width: 40%;
+     
+     margin: 0px;
+     display: inline-block;
+
+
+
+}
+#buthour1{
+    width: 20%
+
+
+}
+#butmin1{
+    width: 20%
+
+}
+#butsec1{
+
+    width: 20%
+
+}
+#hourdiv1{
+
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#mindiv1{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#secdiv1{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#startpushup1{
+    width:30%;
+    margin-left: 30%;
+    margin-top: 5%;
+   
+   
+
+
+
+}
+#hmsdiv1{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+
+
+}
+
+
+
+#hour2{
+    
+    width: 40%;
+    
+    margin: 0px;
+    display: inline-block;
+     
+
+
+
+}
+#min2{
+    
+    width: 40%;
+   
+    margin: 0px;
+    display: inline-block; 
+
+
+
+
+}
+#sec2{
+    
+    width: 40%;
+     
+     margin: 0px;
+     display: inline-block;
+
+
+
+}
+#buthour2{
+    width: 20%
+
+
+}
+#butmin2{
+    width: 20%
+
+}
+#butsec2{
+
+    width: 20%
+
+}
+#hourdiv2{
+
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#mindiv2{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#secdiv2{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#startpushup2{
+    width:30%;
+    margin-left: 30%;
+    margin-top: 5%;
+   
+   
+
+
+
+}
+#hmsdiv2{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+
+
+}
+
+#lap3{
+    
+    width: 40%;
+     
+    margin: 2%;
+    display: inline-block;
+
+}
+#buthour3{
+    width: 20%
+
+
+}
+#butmin3{
+    width: 20%
+
+}
+#butsec3{
+
+    width: 20%
+
+}
+#hourdiv3{
+
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#mindiv3{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#secdiv3{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#startpushup3{
+    width:30%;
+    margin-left: 30%;
+    margin-top: 5%;
+   
+   
+
+
+
+}
+#hmsdiv3{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+
+
+}
+
+#hour4{
+    
+    width: 40%;
+    
+    margin: 0px;
+    display: inline-block;
+     
+
+
+
+}
+#min4{
+    
+    width: 40%;
+   
+    margin: 0px;
+    display: inline-block; 
+
+
+
+
+}
+#sec4{
+    
+    width: 40%;
+     
+     margin: 0px;
+     display: inline-block;
+
+
+
+}
+#buthour4{
+    width: 20%
+
+
+}
+#butmin4{
+    width: 20%
+
+}
+#butsec4{
+
+    width: 20%
+
+}
+#hourdiv4{
+
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#mindiv4{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#secdiv4{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#startpushup4{
+    width:30%;
+    margin-left: 30%;
+    margin-top: 5%;
+   
+   
+
+
+
+}
+#hmsdiv4{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+
+
+}
+
+
+#hour5{
+    
+    width: 40%;
+    
+    margin: 0px;
+    display: inline-block;
+     
+
+
+
+}
+#min5{
+    
+    width: 40%;
+   
+    margin: 0px;
+    display: inline-block; 
+
+
+
+
+}
+#sec5{
+    
+    width: 40%;
+     
+     margin: 0px;
+     display: inline-block;
+
+
+
+}
+#buthour5{
+    width: 20%
+
+
+}
+#butmin5{
+    width: 20%
+
+}
+#butsec5{
+
+    width: 20%
+
+}
+#hourdiv5{
+
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#mindiv5{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#secdiv5{
+    
+    margin-top: 1%;
+     margin-left: 10%;
+
+}
+#startpushup5{
+    width:30%;
+    margin-left: 30%;
+    margin-top: 5%;
+   
+   
+
+
+
+}
+#hmsdiv5{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+
+
+}
+#gdiv1{
+  margin-left: 10%;
+  margin-top: 5%;
+     
+
+}
+#gdiv2{
+  margin-left: 10%;
+  margin-top: 5%;
+     
+
+}
+#gdiv3{
+  margin-left: 10%;
+  margin-top: 5%;
+     
+
+}
+#gdiv4{
+  margin-left: 10%;
+  margin-top: 5%;
+     
+
+}
+#gdiv5{
+  margin-left: 10%;
+  margin-top: 5%;
+     
+
+}
+
+
+
+
+
+
+

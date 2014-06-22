@@ -1,0 +1,45 @@
+@font-face {
+    font-family: RegularFont;
+    src: url(../fonts/fonta.woff);
+}
+#testfont{
+    font-family: RegularFont;
+
+
+}
+
+#menu{
+	color: white;
+	background-color: #f1c40f;
+	border: none;
+	width: 40px;
+}
+#bar{
+	width:100%;
+	
+	background-color: #f1c40f;
+
+}
+.glyphicon {
+
+	line-height: 3;
+
+}
+.dropdown-menu li a{
+
+	width: 100%
+
+}
+
+#popup{
+    position: fixed;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid red;
+    display: none;
+}

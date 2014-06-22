@@ -1,0 +1,55 @@
+#second{
+    margin-top: 100px;
+    right: 0px;
+    left: 0px;
+    bottom:0px;
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+#count{
+    color: white;
+}
+#title{
+	color: white;
+}
+body{
+    background-color: black;
+}
+#popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#popup-container{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+
+#save{
+   width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+
+
+
+
+}
+#score{
+    font-size: 50px;
+    margin-left: 48%;
+    
+
+
+}
